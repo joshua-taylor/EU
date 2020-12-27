@@ -19,14 +19,13 @@ with st.beta_expander("What is this chart showing?"):
      st.write("""
          The chart below shows all of the paragraphs of text contained within the
          UK and EU deal agreed on the 24th December 2020.
-         Colours in the chart represent the different sections of the deal you can see what they relate to by 
+         Colours in the chart represent the different sections of the deal; you can see what they relate to by 
          hovering over a point.
          Viewing the information by 'order of agreement', will show the document from start to end
          (top-to-bottom) with items arranged in the horizontal axis by topics.
          Viewing the information by 'subject clusters' will cluster the paragraphs in the document
          by how similar they are.
          You can pan an zoom into the chart. Hovering over a point will display the text. 
-
      """)
 
 
