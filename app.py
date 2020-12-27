@@ -91,4 +91,4 @@ except:
 		st.write(i[1])
 	pass
 
-
+st.markdown('[Created by Josh Taylor](https://medium.com/@thejoshtaylor)')
