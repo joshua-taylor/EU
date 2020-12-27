@@ -75,14 +75,14 @@ observers = observable("",
 
 try:
 	output = int(observers.get("selection"))
-	output = df.iloc[output][['Parts','Titles','Text']]
+	output = df.iloc[output][['Parts','Titles','Text','Articles']]
 	st.sidebar.header("Selection:")
-	st.sidebar.write(output.Parts)
 	st.sidebar.write(output.Titles)
+	st.sidebar.write(output.Articles)
 	st.sidebar.write(output.Text)
 	st.header("Selection:")
-	st.write(output.Parts)
 	st.write(output.Titles)
+	st.write(output.Articles)
 	st.write(output.Text)
 except:
 	st.subheader('First 10 paragraphs:')
