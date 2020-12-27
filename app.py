@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_observable import observable
 import pandas as pd 
 import json
+st.set_page_config(page_title='UK EU NI trade deal')
 #st.set_page_config(layout="wide")
 #col1, col2 = st.beta_columns((2,1))
 
